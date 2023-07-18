@@ -1,0 +1,13 @@
+
+
+.brand__name{
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 700;
+    color: aqua;
+    font-size: 30px;
+}
+
+.links{
+    color: white;
+}
