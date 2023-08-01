@@ -11,3 +11,7 @@
 .links{
     color: white;
 }
+.container__items{
+    display: flex;
+    align-items: center;
+}

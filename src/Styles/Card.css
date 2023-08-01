@@ -5,3 +5,32 @@
 .popular__articles{
     padding: 20px;
 }
+
+.card-container {
+    gap: 30px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.article_card{
+    display: flex;
+    /* align-items: center; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    /* width: 25rem; */
+    /* padding-bottom: 70px; */
+    /* height: min-content; */
+}
+.article_image{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sliderImage{
+    height: 200px;
+}
+
+.slides{
+    gap: 20px;
+}

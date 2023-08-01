@@ -1,0 +1,21 @@
+.article__container{
+    margin-top: 100px;
+    padding: 0 10px;
+}
+
+.box{
+    padding: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    background-color: rgba(241, 241, 154, 0.315);
+}
+.body__text{
+    line-height: 35px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.text__bold{
+    font-weight: bold;
+    text-align: left;
+    font-style: italic;
+}
