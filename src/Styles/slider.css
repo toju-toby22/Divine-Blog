@@ -4,3 +4,8 @@
     margin: 0 auto;
     padding: 20px;
 }
+.sliderimage{
+    object-fit: contain;
+    height: 400px;
+    padding: 30px;
+}

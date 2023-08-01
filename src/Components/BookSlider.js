@@ -2,6 +2,8 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import image1 from "../Assets/novel 1.jpg"
+import image2 from "../Assets/novel2.jpeg"
+import image3 from "../Assets/novel 3.jpg"
 import Slider from "react-slick";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -59,6 +61,133 @@ const BookSlider = () => {
                         <Card sx={{ maxWidth: 345 }}>
                             <CardActionArea>
                                 <CardMedia
+                                    className='sliderimage'
+                                    component="img"
+                                    height="200"
+                                    image={image1}
+                                    alt="green iguana"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lana's War
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                         Voluptates blanditiis placeat tempora deleniti hic quibusdam enim commodi fugit laboriosam magnam,
+                                         mollitia nostrum sint inventore dolore at molestias, excepturi, doloribus velit.
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </div>
+
+                    <div>
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardActionArea>
+                                <CardMedia
+                                    className='sliderimage'
+                                    component="img"
+                                    height="140"
+                                    image={image3}
+                                    alt="green iguana"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lana's War
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                         Voluptates blanditiis placeat tempora deleniti hic quibusdam enim commodi fugit laboriosam magnam,
+                                         mollitia nostrum sint inventore dolore at molestias, excepturi, doloribus velit.
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </div>
+
+
+                    <div>
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardActionArea>
+                                <CardMedia
+                                    className='sliderimage'
+                                    component="img"
+                                    height="140"
+                                    image={image2}
+                                    alt="green iguana"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lana's War
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                         Voluptates blanditiis placeat tempora deleniti hic quibusdam enim commodi fugit laboriosam magnam,
+                                         mollitia nostrum sint inventore dolore at molestias, excepturi, doloribus velit.
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </div>
+
+
+
+                    <div>
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardActionArea>
+                                <CardMedia
+                                    className='sliderimage'
+                                    component="img"
+                                    height="140"
+                                    image={image3}
+                                    alt="green iguana"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lana's War
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                         Voluptates blanditiis placeat tempora deleniti hic quibusdam enim commodi fugit laboriosam magnam,
+                                         mollitia nostrum sint inventore dolore at molestias, excepturi, doloribus velit.
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </div>
+
+
+
+                    <div>
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardActionArea>
+                                <CardMedia
+                                    className='sliderimage'
+                                    component="img"
+                                    height="140"
+                                    image={image2}
+                                    alt="green iguana"
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        Lana's War
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                         Voluptates blanditiis placeat tempora deleniti hic quibusdam enim commodi fugit laboriosam magnam,
+                                         mollitia nostrum sint inventore dolore at molestias, excepturi, doloribus velit.
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </div>
+
+
+                    <div>
+                        <Card sx={{ maxWidth: 345 }}>
+                            <CardActionArea>
+                                <CardMedia
+                                    className='sliderimage'
                                     component="img"
                                     height="140"
                                     image={image1}
@@ -69,54 +198,9 @@ const BookSlider = () => {
                                         Lana's War
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                    <div>
-                        <Card sx={{ maxWidth: 345 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={image1}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Lizard
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-
-
-                    <div>
-                        <Card sx={{ maxWidth: 345 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={image1}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Lizard
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                         Voluptates blanditiis placeat tempora deleniti hic quibusdam enim commodi fugit laboriosam magnam,
+                                         mollitia nostrum sint inventore dolore at molestias, excepturi, doloribus velit.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -126,74 +210,7 @@ const BookSlider = () => {
 
 
 
-                    <div>
-                        <Card sx={{ maxWidth: 345 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={image1}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Lizard
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-
-
-                    <div>
-                        <Card sx={{ maxWidth: 345 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={image1}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Lizard
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-
-                    <div>
-                        <Card sx={{ maxWidth: 345 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={image1}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Lizard
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                                        species, ranging across all continents except Antarctica
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
+                 
 
 
                 </Slider>
