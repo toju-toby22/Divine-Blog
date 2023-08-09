@@ -11,8 +11,11 @@ const HomePage = () => {
     <div>
         <Navigation/>
         <Banner/>
-        <BookSlider/>
         <Cards/>
+        
+        <div className='homepage_slider_background'>
+        <BookSlider/>
+        </div>
         <TableFooter/>
         <Footer/>
     </div>

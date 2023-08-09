@@ -1,6 +1,6 @@
 .banner__image{
-    height: 500px;
+    height: 300px;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     /* width: ; */
 }

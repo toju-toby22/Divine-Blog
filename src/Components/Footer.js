@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div>
-        <div className="footer__container" variant="secondary"   bg="dark" data-bs-theme="dark">
+        <div className="footer__container " variant="secondary"   bg="dark" data-bs-theme="dark">
             <Container bg="dark" data-bs-theme="dark" >
             <Navbar.Brand href="#home" className="brand__name">GrittlyStudent</Navbar.Brand>
                 <div className="social__links">

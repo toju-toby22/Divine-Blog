@@ -1,11 +1,18 @@
 .slides{
     /* display: flex; */
     justify-content: center;
-    margin: 0 auto;
+    margin-top: 30px ;
     padding: 20px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 .sliderimage{
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top;
     height: 400px;
-    padding: 30px;
+    /* padding: 30px; */
+}
+
+.homepage_slider_background{
+    background-image: linear-gradient(160deg, #8db7cf 0%, #244743 100%);
+
 }

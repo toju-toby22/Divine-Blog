@@ -109,14 +109,14 @@ const Cards = () => {
           Trending Articles
         </Typography>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 2, sm: 8, md: 12 }}>
-          {Array.from(Array(3)).map((_, index) => (
-            <Grid item xs={2} sm={4} md={4} key={index}>
+          {Array.from(Array(3)).map((_, index) => ( 
+            <Grid item xs={2} sm={4} md={4} key={index}> 
               <Link className='Link' to={"ArticlesPage"}>
                 <Item>
                   <Card >
                     <Box>
-                      <Typography variant="h6" gutterBottom>
-                        Overcoming Stress
+                      <Typography variant="h5" gutterBottom>
+                      Fixed Mindset Vs Growth Mindset.
                       </Typography>
 
                       {/* <Typography variant="caption" display="block" gutterBottom>
@@ -132,8 +132,7 @@ const Cards = () => {
                     />
                     <CardContent>
                       <Typography className='textttt' variant="body2" color="text.secondary">
-                        This impressive paella is a perfect party dish and a fun meal to cook
-                        together with your guests.
+                      What type of mindset do you have?
                       </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
