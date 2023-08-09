@@ -105,8 +105,8 @@ const Cards = () => {
 
       <Box sx={{ flexGrow: 1 }}>
 
-        <Typography variant="h3" gutterBottom>
-          Trending Articles
+        <Typography variant="h4" gutterBottom>
+          Grittly Articles
         </Typography>
         <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 2, sm: 8, md: 12 }}>
           {Array.from(Array(3)).map((_, index) => ( 

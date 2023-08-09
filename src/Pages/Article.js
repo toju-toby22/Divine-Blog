@@ -11,18 +11,13 @@ const Article = () => {
 
 
         <div className="Article_banner " data-bs-theme="dark">
-                <div className="row banner">
-                <div className="second_header-text col-md-4">
+                <div className="banner">
+                <div className="second_header_text">
                     <h2 className="header_text">
                        TOP FEATURED ARTICLES
                     </h2>
-
-
-
                 </div>
-                <div className="article_image_container col-md-4">
-                    <img className='article_banner_image' src={image1} alt="" />
-                </div>
+
                 </div>
             </div> 
 
