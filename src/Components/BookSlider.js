@@ -53,7 +53,7 @@ const BookSlider = () => {
 
             <div className='slides'>
             <Typography variant="h5" gutterBottom>
-                TOP BOOKS
+                BOOK REVIEW
             </Typography>
 
                 <Slider {...settings} >

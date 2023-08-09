@@ -2,7 +2,7 @@ import React from 'react'
 import Navigation from '../Components/Navigation'
 import Footer from '../Components/Footer'
 import "../Styles/article.css"
-import image1 from "../Assets/images (39).jpeg"
+import image1 from "../Assets/mind.png"
 import BookSlider from '../Components/BookSlider'
 const Article = () => {
   return (
