@@ -47,6 +47,29 @@ button{
 
 }
 
+.post{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.post > p{
+  font-size: 20px;
+}
+.blog{
+  margin: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* padding: 30px; */
+
+}
+
+@media screen and (max-width: 576px)  {
+  .blog{
+      margin: 5px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+  }
+}
 button:hover{
   background-color: rgba(100, 103, 106, 0.533);
 

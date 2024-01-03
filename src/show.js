@@ -15,7 +15,13 @@ const BlogView = ()=> {
     return(
         <div>
             <p>Title : { blogs.Title}</p>
-            <div  dangerouslySetInnerHTML={{__html: body}} />
+            <div className="blog">
+                <div className="post">
+                 
+                <div  dangerouslySetInnerHTML={{__html: body}} />
+
+                </div>
+            </div>
 
             
         </div>
